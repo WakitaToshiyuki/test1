@@ -1,0 +1,119 @@
+/* 管理画面 */
+.admin{
+position: relative;
+width: 1512px;
+height: 982px;
+
+background: #FFFFFF;
+}
+
+/* logoutボタン */
+.admin__button--logout{
+width: 100px;
+height: 34px;
+left: 1316px;
+top: 33px;
+background-color: #F0F0F099;
+
+font-family: Inika;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #D9C6B5;
+}
+
+/* Admin */
+.admin__title{
+position: absolute;
+width: 111px;
+height: 46px;
+left: 700px;
+top: 140px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+/* ボックスの高さと同一 */
+
+color: #8B7969;
+}
+
+/* Group 検索欄(全体) */
+.admin__search{
+position: absolute;
+width: 917.01px;
+height: 50px;
+left: 164px;
+top: 215px;
+}
+
+.admin__form--header{
+width: 1183px;
+height: 59px;
+/* top: 364px;
+left: 164px;
+angle: 0 deg;
+opacity: 1; */
+background-color: #8B7969;
+}
+
+.th{
+padding: 5px 40px;
+}
+
+.h3{
+font-family: Inika;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+
+
+/* 検索ボタン */
+.admin__button--search{
+position: absolute;
+width: 102.48px;
+height: 50px;
+left: 1112px;
+top: 215px;
+}
+
+/* リセットボタン */
+.admin__button--reset{
+position: absolute;
+width: 102.48px;
+height: 50px;
+left: 1245.52px;
+top: 215px;
+}
+
+/* エクスポートボタン */
+.admin__button--export{
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 20px;
+gap: 10px;
+
+position: absolute;
+width: 148px;
+height: 39px;
+left: 164px;
+top: 302px;
+
+background: rgba(225, 219, 214, 0.6);
+}
+
+
+

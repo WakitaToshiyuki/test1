@@ -1,0 +1,35 @@
+/* Group 105 */
+.header{
+    background: #E0DFDE;
+}
+
+/* FashionablyLate */
+.header__logo{
+   
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    /* line-height: 52px; */
+    align-items: center;
+    text-align: center;
+
+    color: #8B7969;
+}
+/* position: absolute; */
+/* width: 1509.01px; */
+/* height: 100px; */
+/* left: 2.99px; */
+/* top: 0px; */
+
+
+
+
+/* Line 5 */
+.header__inner{
+    width: 1512px;
+    height: 100px;
+
+    border: 1px solid #E0DFDE;
+}

@@ -1,0 +1,121 @@
+/* お問い合わせフォーム入力ページ */
+.contact{
+position: relative;
+width: 1512px;
+height: 982px;
+
+background: #FFFFFF;
+}
+
+/* Contact */
+.contact__title{
+position: absolute;
+width: 250px;
+/* 121px */
+height: 46px;
+left: 631px;
+/* 694px */
+top: 150px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+/* ボックスの高さと同一 */
+
+color: #8B7969;
+}
+
+/* Group 問い合わせ全体 */
+.contact__form{
+position: absolute;
+width: 972px;
+height: 606px;
+left: 273px;
+top: 247px;
+}
+
+.contact__form--kind{
+width: 970px;
+height: 40px;
+/* top: 724px;
+left: 282.22px; */
+/* angle: 0 deg;
+opacity: 1; */
+}
+
+.contact__form--header{
+width: 279.46875;
+height: 26;
+/* top: 732px;
+left: 282.22px; */
+/* angle: 0 deg; */
+/* opacity: 1; */
+font-family: Inika;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+color: #8B7969;
+margin: 0px auto 0px 0px;
+}
+
+.span{
+font-family: Inika;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+color: red;
+}
+
+.contact__form--name{}
+
+.contact__form--gender{}
+
+.contact__form--email{}
+
+.contact__form--tel{}
+
+.contact__form--address{}
+
+.contact__form--building{}
+
+.contact__form--content{}
+
+.contact__form--detail{}
+
+textarea{
+width: 620;
+height: 130;
+background-color: #F4F4F4;
+color: #BEB1A6;
+}
+
+.form__error{
+color: red;
+
+}
+
+/* Frame ボタン */
+.contact__button{
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 40px;
+gap: 10px;
+
+position: absolute;
+width: 160px;
+height: 46px;
+left: 674px;
+top: 903px;
+
+background: #82756A;
+}

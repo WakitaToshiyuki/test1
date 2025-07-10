@@ -1,0 +1,148 @@
+/* ログインページ */
+.login{
+position: relative;
+width: 1512px;
+height: 982px;
+
+background: #F1ECE7;
+}
+
+/* registerボタン */
+.login__button--register{
+width: 100px;
+height: 34px;
+left: 1316px;
+top: 33px;
+background-color: #F0F0F099;
+
+font-family: Inika;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #D9C6B5;
+}
+
+/* Login */
+.login__title{
+position: absolute;
+width: 150px;
+/* 93px */
+height: 46px;
+left: 710px;
+top: 162px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+/* ボックスの高さと同一 */
+
+color: #8B7969;
+}
+
+/* login 全体 */
+.login__form{
+box-sizing: border-box;
+
+position: absolute;
+width: 736px;
+height: 579px;
+left: 388px;
+top: 264px;
+
+background: #FFFFFF;
+border: 1px solid #C5B9B0;
+border-radius: 10px;
+}
+
+/* login メールアドレス */
+.login__form--mail{
+position: absolute;
+width: 445px;
+height: 102px;
+left: 534px;
+top: 362px;
+}
+
+/* login メールアドレス記入欄 */
+.login__form--mail-write{
+position: absolute;
+width: 445px;
+height: 55px;
+left: 534px;
+top: 409px;
+
+background: #F4F4F4;
+}
+
+/* メールアドレス */
+.login__form--mail-title{
+position: absolute;
+width: 175px;
+height: 33px;
+left: 534px;
+top: 362px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+/* ボックスの高さと同一 */
+
+color: #8B7969;
+}
+
+/* login パスワード */
+.login__form--password-title{
+position: absolute;
+width: 125px;
+height: 33px;
+left: 534px;
+top: 511px;
+
+/* パスワード */
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+/* ボックスの高さと同一 */
+
+color: #8B7969;
+}
+
+/* login パスワード 記入欄 */
+.login__form--password-write{
+position: absolute;
+width: 445px;
+height: 55px;
+left: 534px;
+top: 558px;
+
+background: #F4F4F4;
+}
+
+/* ログインボタン */
+.login__button--login{
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 40px;
+gap: 10px;
+
+position: absolute;
+width: 160px;
+height: 46px;
+left: 676px;
+top: 708px;
+
+background: #82756A;
+}

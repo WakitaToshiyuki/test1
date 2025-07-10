@@ -1,0 +1,96 @@
+/* お問い合わせフォームの確認画面 */
+.confirm{
+position: relative;
+width: 1512px;
+height: 982px;
+
+background: #FFFFFF;
+}
+
+/* Confirm */
+.confirm__title{
+position: absolute;
+width: 170px;
+/* 133px */
+height: 43px;
+left: 694px;
+top: 150px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+
+color: #8B7969;
+}
+
+/* Group 確認全体 */
+.confirm__form{
+position: absolute;
+width: 65%;
+/* 972px */
+height: 606px;
+top: 247px;
+margin: 0 auto;
+}
+
+.confirm__form--row{
+border: 1px solid #E0DFDE;
+}
+
+.confirm__form--header{
+font-family: Inika;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+background-color: #BAA899;
+}
+
+.confirm__form--text{
+font-family: Inika;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #8B7969;
+background-color: #FFFFFF;
+}
+
+/* 送信ボタン */
+.confirm__button--send{
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 40px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 42px;
+left: 696px;
+top: 903px;
+
+background: #82756A;
+}
+
+/* 修正 */
+.confirm__button--retouch{
+position: absolute;
+width: 40px;
+height: 24px;
+left: 868px;
+top: 914px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-decoration-line: underline;
+
+color: #8B7969;
+}

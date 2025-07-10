@@ -1,0 +1,109 @@
+.register__button--login{
+width: 100px;
+height: 34px;
+left: 1316px;
+top: 33px;
+background-color: #F0F0F099;
+
+font-family: Inika;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #D9C6B5;
+}
+
+
+/* 登録ページ */
+.register{
+position: relative;
+width: 1512px;
+height: 982px;
+
+background: #ebd0b6;
+z-index: 0;
+}
+
+/* Register */
+.register__title{
+position: absolute;
+width: 134px;
+height: 46px;
+left: 689px;
+top: 159px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+/* ボックスの高さと同一 */
+
+color: #8B7969;
+}
+
+.register__form{
+width: 736px;
+height: 644px;
+top: 264px;
+left: 388px;
+border-radius: 10px;
+border-width: 1px;
+background-color: #FFFFFF;
+z-index: 1;
+}
+
+.register__form--layout{
+width: 445px;
+height: 396px;
+top: 47px;
+/* 341px */
+left: 146px;
+/* 534px */
+gap: 45px;
+z-index: 2;
+}
+
+.register__form--content{
+width: 445;
+height: 102;
+}
+
+.register__form--header{
+font-family: Inika;
+font-weight: 400;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #8B7969;
+z-index: 3;
+}
+
+.register__form--text{
+width: 445px;
+height: 55px;
+
+background: #F4F4F4;
+z-index: 4;
+}
+
+/* 登録ボタン */
+.register__button{
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 40px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 46px;
+left: 696px;
+top: 800px;
+
+background: #82756A;
+}
